@@ -1,0 +1,30 @@
+:root {
+  /* Colors */
+  --primary: #007bff;
+  --primary-hover: #0056b3;
+  --bg: #f8f9fa;
+  --surface: #ffffff;
+  --text: #333333;
+  --text-muted: #666666;
+  --border: #dee2e6;
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+
+  /* JEE Specifics */
+  --jee-header-bg: #1e3a8a;
+  --jee-accent: #3b82f6;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, sans-serif;
+}
+
+[data-theme='dark'] {
+  --bg: #111827;
+  --surface: #1f2937;
+  --text: #f9fafb;
+  --text-muted: #9ca3af;
+  --border: #374151;
+  --shadow: 0 10px 15px -3px rgb(0 0 0 / 0.3);
+}

@@ -1,0 +1,45 @@
+.shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  height: 60px;
+  background: var(--jee-header-bg);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  box-shadow: var(--shadow);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+
+.nav {
+  margin-left: 3rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navItem {
+  background: transparent;
+  color: #cbd5e1;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: color 0.2s;
+  border: none;
+}
+
+.navItem:hover {
+  color: white;
+}
+
+.main {
+  flex-grow: 1;
+  padding: 2rem;
+}

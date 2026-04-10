@@ -1,0 +1,74 @@
+<h2>Map out your JEE Study Center</h2>
+<p class="subtitle">Since we're going with <strong>Focused Modules</strong>, let's refine the four main modes. Which one do you want to start with as our MVP (Minimum Viable Product)?</p>
+
+<div class="options">
+  <div class="option" data-choice="simulator" onclick="toggleSelect(this)">
+    <div class="letter">1</div>
+    <div class="content">
+      <h3>The Exam Simulator</h3>
+      <p>A 1:1 replica of the JEE Advanced interface. Lag-free, high-fidelity, and distraction-free.</p>
+      <ul>
+        <li>Official marking schemes</li>
+        <li>Mock paper generation</li>
+        <li>Time-pressure mode</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="option" data-choice="library" onclick="toggleSelect(this)">
+    <div class="letter">2</div>
+    <div class="content">
+      <h3>The Concept Library</h3>
+      <p>A fast, searchable repository of formulas, concept maps, and PYQs organized by topic.</p>
+      <ul>
+        <li>Formula quick-sheets</li>
+        <li>PYQ search with tagging</li>
+        <li>Concept visualization</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="option" data-choice="analyst" onclick="toggleSelect(this)">
+    <div class="letter">3</div>
+    <div class="content">
+      <h3>The Performance Analyst</h3>
+      <p>Visual reports on your performance. It finds your weak sub-topics so you know what to fix.</p>
+      <ul>
+        <li>Sub-topic accuracy heatmaps</li>
+        <li>Rank predictor engine</li>
+        <li>Trend visualization</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="option" data-choice="disciplinarian" onclick="toggleSelect(this)">
+    <div class="letter">4</div>
+    <div class="content">
+      <h3>The Smart Disciplinarian</h3>
+      <p>A dynamic schedule builder that tells you exactly what to study now based on your performance data.</p>
+      <ul>
+        <li>Automatic daily study tasks</li>
+        <li>Revision reminders</li>
+        <li>Adaptive rescheduling</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="mockup">
+  <div class="mockup-header">App Architecture: Focused Modules</div>
+  <div class="mockup-body" style="padding: 1.5rem; text-align: center;">
+    <div style="display: flex; gap: 1rem; justify-content: center;">
+      <div style="border: 2px dashed #ccc; padding: 1rem; border-radius: 8px; flex: 1;">
+        <strong>Mode: PRACTICE</strong><br>Focused Problem Solving
+      </div>
+      <div style="border: 2px solid #007bff; padding: 1rem; border-radius: 8px; flex: 1; background: #f0f7ff;">
+        <strong>Mode: TEST</strong><br>JEE Exam Simulator
+      </div>
+      <div style="border: 2px dashed #ccc; padding: 1rem; border-radius: 8px; flex: 1;">
+        <strong>Mode: ANALYZE</strong><br>Performance Insights
+      </div>
+    </div>
+    <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;">Each mode will have its own dedicated UI to minimize distractions and maximize efficiency.</p>
+  </div>
+</div>

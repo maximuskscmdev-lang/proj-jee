@@ -1,0 +1,53 @@
+<h2>Designing the Performance Analyst</h2>
+<p class="subtitle">We'll build a <strong>Split Dashboard</strong> that shows your Topic Accuracy and Time Management side-by-side. Does this layout work for you?</p>
+
+<div class="mockup">
+  <div class="mockup-header">Analyst Dashboard: Deep Dive</div>
+  <div class="mockup-body" style="padding: 1.5rem; display: flex; flex-direction: column; gap: 2rem;">
+    
+    <!-- Row 1: The Heatmap -->
+    <div style="border: 1px solid var(--border); border-radius: 8px; padding: 1rem; background: var(--surface);">
+      <h3 style="margin-top: 0; color: var(--jee-header-bg);">1. Subject-Wise Accuracy Heatmap</h3>
+      <div style="display: grid; grid-template-columns: repeat(12, 1fr); gap: 4px; margin-top: 1rem;">
+        <div style="background: #10b981; height: 25px; border-radius: 2px;"></div>
+        <div style="background: #10b981; height: 25px; border-radius: 2px;"></div>
+        <div style="background: #f59e0b; height: 25px; border-radius: 2px;"></div>
+        <div style="background: #ef4444; height: 25px; border-radius: 2px;"></div>
+        <div style="background: #10b981; height: 25px; border-radius: 2px;"></div>
+        <div style="background: #10b981; height: 25px; border-radius: 2px;"></div>
+        <div style="background: #f59e0b; height: 25px; border-radius: 2px;"></div>
+        <div style="background: #ef4444; height: 25px; border-radius: 2px;"></div>
+        <div style="background: #10b981; height: 25px; border-radius: 2px;"></div>
+        <div style="background: #10b981; height: 25px; border-radius: 2px;"></div>
+        <div style="background: #f59e0b; height: 25px; border-radius: 2px;"></div>
+        <div style="background: #ef4444; height: 25px; border-radius: 2px;"></div>
+      </div>
+      <p style="font-size: 0.8rem; color: #666; margin-top: 0.5rem;">Each cell represents a sub-topic (e.g. "Laws of Motion"). Hover to see % accuracy.</p>
+    </div>
+
+    <!-- Row 2: Time-Bleed Detector -->
+    <div style="border: 1px solid var(--border); border-radius: 8px; padding: 1rem; background: var(--surface);">
+      <h3 style="margin-top: 0; color: var(--jee-header-bg);">2. Time-Bleed Detector</h3>
+      <div style="display: flex; align-items: flex-end; gap: 8px; height: 100px; margin-top: 1rem; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; padding-left: 8px;">
+        <div style="background: var(--jee-accent); width: 20px; height: 40px;"></div>
+        <div style="background: var(--jee-accent); width: 20px; height: 35px;"></div>
+        <div style="background: #ef4444; width: 20px; height: 90px;" title="Warning: 8 mins spent here!"></div>
+        <div style="background: var(--jee-accent); width: 20px; height: 45px;"></div>
+        <div style="background: var(--jee-accent); width: 20px; height: 30px;"></div>
+        <div style="background: #ef4444; width: 20px; height: 85px;" title="Warning: 7.5 mins spent here!"></div>
+      </div>
+      <p style="font-size: 0.8rem; color: #666; margin-top: 0.5rem;">Detects questions where you spent too much time (Red bars = 2x avg time).</p>
+    </div>
+
+  </div>
+</div>
+
+<div class="pros-cons">
+  <div class="pros">
+    <h4>Analytical Superpowers</h4>
+    <ul>
+      <li><strong>Immediate Weakness Identification:</strong> No need to guess what to revise.</li>
+      <li><strong>Time Awareness:</strong> Learn to skip "time-trap" questions during the real exam.</li>
+    </ul>
+  </div>
+</div>

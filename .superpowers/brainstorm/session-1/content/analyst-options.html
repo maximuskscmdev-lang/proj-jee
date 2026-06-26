@@ -1,0 +1,48 @@
+<h2>Phase 2: The Performance Analyst</h2>
+<p class="subtitle">Now that we have the simulator, let's build the brain of the app. How should we visualize your performance?</p>
+
+<div class="options">
+  <div class="option" data-choice="heatmap" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>The Topic Heatmap</h3>
+      <p>A color-coded grid (Red/Yellow/Green) of every sub-topic. Instantly see that you're weak in "Ionic Equilibrium" but strong in "Kinematics".</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="time" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>The Time-Bleed Detector</h3>
+      <p>A chart showing exactly how many minutes you spent on each question vs. the average. Find those 10-minute "traps" that killed your score.</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="prediction" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>The Rank Predictor</h3>
+      <p>A trend line showing your predicted AIR (All India Rank) based on your mock scores over time.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mockup">
+  <div class="mockup-header">Analyst Preview: Accuracy Heatmap</div>
+  <div class="mockup-body" style="padding: 1rem; display: grid; grid-template-columns: repeat(10, 1fr); gap: 4px;">
+    <!-- Physics -->
+    <div style="background: #10b981; height: 30px; border-radius: 2px;" title="Kinematics: 90%"></div>
+    <div style="background: #10b981; height: 30px; border-radius: 2px;" title="NLM: 85%"></div>
+    <div style="background: #f59e0b; height: 30px; border-radius: 2px;" title="Work-Energy: 65%"></div>
+    <div style="background: #ef4444; height: 30px; border-radius: 2px;" title="Rotational: 30%"></div>
+    <!-- Chemistry -->
+    <div style="background: #10b981; height: 30px; border-radius: 2px;"></div>
+    <div style="background: #ef4444; height: 30px; border-radius: 2px;"></div>
+    <div style="background: #f59e0b; height: 30px; border-radius: 2px;"></div>
+    <div style="background: #10b981; height: 30px; border-radius: 2px;"></div>
+    <!-- Math -->
+    <div style="background: #ef4444; height: 30px; border-radius: 2px;"></div>
+    <div style="background: #ef4444; height: 30px; border-radius: 2px;"></div>
+  </div>
+  <p style="font-size: 0.8rem; color: #666; margin: 0.5rem 1rem;">The grid helps you prioritize what to study in Phase 2 (The Disciplinarian).</p>
+</div>

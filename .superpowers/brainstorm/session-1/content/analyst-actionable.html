@@ -1,0 +1,71 @@
+<h2>Refining the Analyst Insights</h2>
+<p class="subtitle">You're right. Visuals are good, but <strong>actionable feedback</strong> is better. Let's add a "Quick Wins" section to the top of your dashboard.</p>
+
+<div class="mockup">
+  <div class="mockup-header">Analyst Dashboard: Actionable Insights</div>
+  <div class="mockup-body" style="padding: 1.5rem; display: flex; flex-direction: column; gap: 1.5rem;">
+    
+    <!-- NEW: TOP PRIORITY SECTION -->
+    <div style="background: #fff5f5; border: 2px solid #feb2b2; border-radius: 12px; padding: 1.5rem;">
+      <h3 style="margin-top: 0; color: #c53030; display: flex; align-items: center; gap: 8px;">
+        <span style="font-size: 1.5rem;">⚠️</span> Immediate Action Required
+      </h3>
+      
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem;">
+        <!-- Weak Points List -->
+        <div>
+          <h4 style="margin: 0; color: #742a2a; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.5px;">Top 3 Weak Sub-Topics</h4>
+          <ul style="margin: 0.5rem 0 0 0; padding-left: 1.2rem; color: #333;">
+            <li><strong>Rotational Dynamics</strong> (12% Accuracy)</li>
+            <li><strong>Ionic Equilibrium</strong> (28% Accuracy)</li>
+            <li><strong>Complex Numbers</strong> (35% Accuracy)</li>
+          </ul>
+        </div>
+        
+        <!-- Time Bleed List -->
+        <div>
+          <h4 style="margin: 0; color: #742a2a; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.5px;">Critical Time Bleeds</h4>
+          <ul style="margin: 0.5rem 0 0 0; padding-left: 1.2rem; color: #333;">
+            <li><strong>Q14 (Math):</strong> 9.5 mins <span style="color: #c53030; font-weight: bold;">[DANGER]</span></li>
+            <li><strong>Q28 (Physics):</strong> 7.2 mins <span style="color: #c53030; font-weight: bold;">[DANGER]</span></li>
+            <li><strong>Average Time/Question:</strong> 2.8 mins (Goal: 2.1)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- The original visuals continue below -->
+    <div style="display: flex; gap: 1rem;">
+      <div style="flex: 1; border: 1px solid var(--border); border-radius: 8px; padding: 1rem; background: var(--surface);">
+        <h4 style="margin-top: 0;">Accuracy Heatmap</h4>
+        <div style="display: grid; grid-template-columns: repeat(10, 1fr); gap: 4px; margin-top: 0.5rem;">
+          <div style="background: #10b981; height: 15px; border-radius: 2px;"></div>
+          <div style="background: #ef4444; height: 15px; border-radius: 2px;"></div>
+          <div style="background: #f59e0b; height: 15px; border-radius: 2px;"></div>
+          <div style="background: #10b981; height: 15px; border-radius: 2px;"></div>
+          <div style="background: #ef4444; height: 15px; border-radius: 2px;"></div>
+        </div>
+      </div>
+      <div style="flex: 1; border: 1px solid var(--border); border-radius: 8px; padding: 1rem; background: var(--surface);">
+        <h4 style="margin-top: 0;">Time Distribution</h4>
+        <div style="display: flex; align-items: flex-end; gap: 4px; height: 40px; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+          <div style="background: var(--jee-accent); width: 10px; height: 15px;"></div>
+          <div style="background: #ef4444; width: 10px; height: 35px;"></div>
+          <div style="background: var(--jee-accent); width: 10px; height: 20px;"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="pros-cons">
+  <div class="pros">
+    <h4>Why this is better</h4>
+    <ul>
+      <li><strong>No guesswork:</strong> Tells you exactly what topics to study next.</li>
+      <li><strong>Behavioral Correction:</strong> Explicitly flags the questions where you got "stuck".</li>
+      <li><strong>Phase 2 Link:</strong> The "Weak Sub-Topics" list will feed directly into your Smart Schedule.</li>
+    </ul>
+  </div>
+</div>
